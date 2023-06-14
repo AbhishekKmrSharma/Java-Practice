@@ -1,0 +1,23 @@
+package ReTechnical;
+
+public class Oopss 
+{
+	private int a;
+	
+	void setA(int a)
+	{
+		this.a=a;
+	}
+	
+	int getA()
+	{
+		return a;
+	}
+	
+	public static void main(String[] args) 
+	{
+		Oopss o=new Oopss();
+		o.setA(10);
+		System.out.println(o.getA());
+	}
+}

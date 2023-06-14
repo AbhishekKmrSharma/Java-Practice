@@ -1,0 +1,12 @@
+
+public class Oopss 
+{
+	int a;
+	int b;
+	String c;
+	
+	void m1()
+	{
+		
+	}
+}

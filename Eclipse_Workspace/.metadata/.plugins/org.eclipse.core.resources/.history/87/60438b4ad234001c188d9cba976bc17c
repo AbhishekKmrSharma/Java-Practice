@@ -1,0 +1,19 @@
+package ReTechnical;
+
+public class Oopss 
+{
+	public static void main(String[] args) 
+	{
+	}
+}
+
+class HasA
+{
+	int b;
+	String s;
+	
+	HasA(int b,String s)
+	{
+		
+	}
+}

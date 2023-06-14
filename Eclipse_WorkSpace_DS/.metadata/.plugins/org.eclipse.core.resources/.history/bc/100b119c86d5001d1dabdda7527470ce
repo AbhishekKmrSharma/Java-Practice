@@ -1,0 +1,103 @@
+import java.util.*;
+public class Stack 
+{
+	static int top=-1;
+	static Scanner A=new Scanner(System.in);
+	
+	static void push(int a[],int data)
+	{
+		if(isFull())
+		{
+			System.out.println("Stack is Full");
+		}
+		else 
+		{
+		top++;
+		a[top]=data;
+		}
+	}
+	
+	static void show(int a[])
+	{
+		for(int i:a)
+		{
+			System.out.print(i+" ");
+		}
+		System.out.println("\n");
+	}
+	
+	static void pop(int a[])
+	{
+		if(isEmpty())
+		{
+			System.out.println("Underflow");
+		}
+		else
+		{
+		a[top]=0;
+		System.out.print("Last Element Removed \n");
+		top--;
+		}
+	}
+	
+	static int peek(int a[])
+	{
+		return a[top];
+	}
+	
+	static boolean isEmpty()
+	{
+		return top<0;
+	}
+	
+	static void size()
+	{
+		System.out.println("Size of Stack is = "+(top+1));
+	}
+	
+	static boolean isFull()
+	{
+		return top>=4;
+	}
+	
+	public static void main(String[] args) 
+	{
+		Scanner A=new Scanner(System.in);
+		
+		System.out.println("Stack is Empty = "+isEmpty());
+		
+		int a[]=new int[5];
+		size();
+		push(a,10);
+		push(a,20);
+		push(a,30);
+		size();
+		System.out.println("Stack is Full = "+isFull());
+		push(a,40);
+		push(a,50);
+		push(a,50);
+		size();
+		System.out.println("Stack is Full = "+isFull());
+	
+		System.out.print("Before Pop = ");
+		show(a);
+		
+		System.out.print("\nTop Element =  "+peek(a)+"\n");
+		
+		pop(a);
+		pop(a);
+		
+		System.out.print("\nTop Element =  "+peek(a)+"\n");
+		
+		pop(a);
+		pop(a);
+		
+		System.out.print("\nTop Element =  "+peek(a)+"\n");
+		System.out.print("\nAfter Pop operation = ");
+		
+		show(a);
+		pop(a);
+		show(a);
+		
+	}
+}

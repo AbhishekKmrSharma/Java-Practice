@@ -1,0 +1,51 @@
+package ReTechnical;
+
+public class All 
+{
+	int a,b,c;
+	
+	All()
+	{
+		System.out.println("Parent Default constructor");
+	}
+	All(int a,int b,int c)
+	{
+		this.a=a;
+		this.b=b;
+		this.c=c;
+		System.out.println("Parent class Parameterized");
+	}
+	
+	void m1(int d)
+	{
+		int e=d;
+		System.out.println("Parent class"+(a+b+c));
+	}
+	
+	public static void main(String[] args)
+	{
+		B b=new B(10,20,30);
+		b.m1(10);
+	}
+}
+
+class B extends All
+{
+	B(int a,int b,int c)
+	{
+		super(a,b,c);
+		System.out.println("Subclass constructor");
+	}
+	
+	void m1(int a)
+	{
+		System.out.println("Subclass Method"+a);
+	}
+	
+	
+}
+
+
+
+
+

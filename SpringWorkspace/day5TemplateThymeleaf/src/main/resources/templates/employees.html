@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table width="80%" border="1">
+<thead>
+<tr>
+<th>Name</th>
+<th>Age</th>
+<th>Salary</th>
+<th>Department</th>
+<th>Access</th>
+</tr>
+</thead>
+
+<tbody>
+<tr th:each="emp: ${name}">
+<td th:text="${emp.name}"></td>
+<td th:text="${emp.age}"></td>
+<td th:text="${emp.salary}"></td>
+<td th:text="${emp.dept}"></td>
+<td>
+<input type="submit" value="VIEW" th:if="${emp.dept}=='Devops'">
+<input type="submit" value="VIEW" th:if="${emp.dept}=='Devops'">
+<input type="submit" value="VIEW" th:if="${emp.dept}=='Manager'">
+</td>
+</tr>
+
+
+</tbody>
+
+
+</table>
+
+</body>
+</html>

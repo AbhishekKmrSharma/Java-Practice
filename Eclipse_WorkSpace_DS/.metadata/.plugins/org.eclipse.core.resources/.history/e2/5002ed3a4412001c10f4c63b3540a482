@@ -1,0 +1,13 @@
+
+public class Runner 
+{
+	public static void main(String[] args) 
+	{
+		Stack s=new Stack();
+		
+		s.show();
+		s.push("Hello");
+		s.push("Abhishek");
+		s.show();
+	}
+}

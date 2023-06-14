@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;ParikshakLL.java&apos; to &apos;SimpleLL.java&apos;&#x0D;&#x0A;- Original project: &apos;Day6_OnlyLab&apos;&#x0D;&#x0A;- Original element: &apos;ParikshakLL.java&apos;&#x0D;&#x0A;- Renamed element: &apos;SimpleLL.java&apos;" description="Rename compilation unit &apos;ParikshakLL.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{ParikshakLL.java" name="SimpleLL.java" references="false" stamp="1624191221646" version="1.0"/>
+</session>

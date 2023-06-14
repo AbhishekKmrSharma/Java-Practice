@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Day1&apos; to &apos;Day1_Stack_&amp;_DynamicArray&apos;&#x0D;&#x0A;- Original element: &apos;Day1&apos;&#x0D;&#x0A;- Renamed element: &apos;Day1&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Day1&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Day1" name="Day1_Stack_&amp;_DynamicArray" references="true" stamp="1623748453508" version="1.0"/>
+</session>

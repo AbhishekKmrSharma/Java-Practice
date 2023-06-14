@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script type="text/javascript" th:src="@{/js/first.js}"></script>
+
+</head>
+<body style="text-align: center;">
+<h1>LOGIN PLEASE</h1><hr>
+<form action="homee2" method="post">
+<h3>Username : <input type="text" name="user"><br>
+Password : <input type="password" name="pwd"></h3>
+<h2><input type="Submit" value="LOGIN"><input type="reset" value="RESET"></h2>
+</form>
+
+<input type="submit" th:onclick="first()" value="JAVASCRIPT">
+<form name="f1">
+<h3>
+<input type="text" name="a1">
+<input type="submit" th:onclick="second(document.f1.a1.value)" value="DYNAMIC JS">
+</h3>
+</form>
+</body>
+</html>

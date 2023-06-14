@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Factoriall 
+{
+	int a=1;
+	
+	public static void main(String[] args) 
+	{
+		Scanner s = new Scanner(System.in);
+		
+		int n = s.nextInt();
+		
+		Factoriall f=new Factoriall();
+		f.m1(n);
+	}
+	
+	void m1(int n)
+	{
+		if(n>1)
+		{
+			a+=n;
+			m1(n-1);
+		}
+		System.out.println(a);
+	}
+}

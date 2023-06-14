@@ -1,0 +1,30 @@
+import java.util.*;
+public class BasicArrayList 
+{
+	
+}
+
+
+
+
+class Test
+{
+	public static void main(String[] args) 
+	{
+		Scanner A=new Scanner(System.in);
+		ArrayList<Integer> al=new ArrayList<>();
+		int choice = 0;
+		while(choice!=10)
+		{
+			System.out.println("1 for Add elements in Arraylist\n2 for Remove a Particular Element\n3 for Modification\n4 for View All Elements\n5 for View Particular Element\n6 for Sort the ArrayList\n");
+			choice=A.nextInt();
+			switch(choice)
+			{
+			case 1:
+			{
+				
+			}
+			}
+		}
+	}
+}

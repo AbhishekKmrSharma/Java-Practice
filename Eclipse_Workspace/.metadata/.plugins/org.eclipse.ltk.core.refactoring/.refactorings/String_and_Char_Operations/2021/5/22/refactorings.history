@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;SimpleCharProgram&apos; to &apos;SimpleCharStringProgram&apos;&#x0D;&#x0A;- Original project: &apos;String_and_Char_Operations&apos;&#x0D;&#x0A;- Original element: &apos;SimpleCharProgram&apos;&#x0D;&#x0A;- Renamed element: &apos;SimpleCharStringProgram&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SimpleCharProgram&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{SimpleCharProgram.java[SimpleCharProgram" matchStrategy="1" name="SimpleCharStringProgram" qualified="false" references="true" similarDeclarations="false" stamp="1621971260634" textual="false" version="1.0"/>
+</session>

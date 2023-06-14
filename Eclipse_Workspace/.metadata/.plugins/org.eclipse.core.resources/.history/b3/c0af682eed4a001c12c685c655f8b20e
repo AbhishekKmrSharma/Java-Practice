@@ -1,0 +1,32 @@
+
+public class Oopss 
+{
+	int a;
+	int b;
+	String c;
+	
+	void m1()
+	{
+		this.a=20;
+		this.b=30;
+		this.c="Abhi";
+	}
+	
+	void m2()
+	{
+		int d=a*b;
+		System.out.println(c+" "+d);
+	}
+}
+
+class A extends Oopss
+{
+	public static void main(String[] args) 
+	{
+		A a=new A();
+		a.m2();
+		a.m1();
+		a.m2();
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;DoublyLinked&apos; to &apos;DoublyLinkedL&apos;&#x0D;&#x0A;- Original project: &apos;Day8_Sorting_&amp;_DoublyLinkedList&apos;&#x0D;&#x0A;- Original element: &apos;DoublyLinked&apos;&#x0D;&#x0A;- Renamed element: &apos;DoublyLinkedL&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DoublyLinked&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{DoublyLinked.java[DoublyLinked" matchStrategy="1" name="DoublyLinkedL" qualified="false" references="true" similarDeclarations="false" stamp="1624383696918" textual="false" version="1.0"/>
+</session>

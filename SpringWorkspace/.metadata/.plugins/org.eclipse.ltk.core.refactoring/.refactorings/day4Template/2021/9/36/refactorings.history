@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;day4Template/src/main/webapp/staticpagesWhichIsHTML&apos; to &apos;staticpagesHTML&apos;" description="Rename resource &apos;staticpagesWhichIsHTML&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/staticpagesWhichIsHTML" name="staticpagesHTML" stamp="1630527189683" updateReferences="true"/>
+</session>

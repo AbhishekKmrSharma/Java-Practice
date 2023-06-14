@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table width=100% border="1">
+
+<thead>
+<tr>
+<th>Name</th>
+<th>Age</th>
+<th>Designation</th>
+<th>Salary</th>
+</thead>
+</tr>
+<tbody>
+
+<tr th:each="emp:${emp}">
+<td th:text="${emp.name}"></td>
+<td th:text="${emp.age}"></td>
+<td th:text="${emp.desig}"></td>
+<td th:text="${emp.salary}"></td>
+
+</tr>
+</tbody>
+
+
+
+
+
+
+</table>
+</body>
+</html>

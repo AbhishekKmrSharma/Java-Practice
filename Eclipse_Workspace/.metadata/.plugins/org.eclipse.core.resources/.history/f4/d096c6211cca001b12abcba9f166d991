@@ -1,0 +1,66 @@
+import java.util.*;
+public class BasicArrayList 
+{
+	static Scanner A = new Scanner(System.in);
+	static void add(ArrayList al)
+	{
+		System.out.print("\nEnter of Elemets you want to enter = ");
+		int n=A.nextInt();
+		System.out.print("\nEnter Element to Add = ");
+		for(int i=0;i<n;i++)
+		{
+			int ele=A.nextInt();
+			al.add(ele);
+		}
+	}
+	static void display(ArrayList al)
+	{
+		Iterator a=al.iterator();
+		System.out.println("Elements in Arraylist are = ");
+		while(a.hasNext())
+		{
+			System.out.print(a.next()+" ");
+		}
+	}
+}
+
+
+
+
+class Test12
+{
+	public static void main(String[] args) 
+	{
+		Scanner A=new Scanner(System.in);
+		ArrayList<Integer> al=new ArrayList<>();
+		int choice = 0;
+		while(choice!=10)
+		{
+			System.out.println("1 for Add elements in Arraylist\n2 for Remove a Particular Element\n3 for Modification\n4 for View All Elements\n5 for View Particular Element\n6 for Sort the ArrayList\n7 for Exit");
+			choice=A.nextInt();
+			switch(choice)
+			{
+			case 1:
+			{
+				BasicArrayList.add(al);
+				break;
+			}
+			case 4:
+			{
+				BasicArrayList.display(al);
+				break;
+			}
+			case 7:
+			{
+				System.out.println("Exited");
+				System.exit(0);
+			}
+			default: 
+			{
+				System.out.println("Invalid Option");
+				break;
+			}
+			}
+		}
+	}
+}

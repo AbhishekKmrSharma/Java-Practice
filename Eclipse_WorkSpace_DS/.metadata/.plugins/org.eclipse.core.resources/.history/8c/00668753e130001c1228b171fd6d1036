@@ -1,0 +1,21 @@
+package Array;
+
+import java.io.UnsupportedEncodingException;
+import java.util.*;
+
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+
+public class Testtt
+{
+	public static void main(String[] args)  throws Throwable 
+	{
+		int a=100;
+		int b=200;
+		b=a++ + b++;
+		if(b%2==0)
+			System.out.println(a++ +" "+ --b);
+		else
+			System.out.println(--a+" "+ ++b);
+	}
+}

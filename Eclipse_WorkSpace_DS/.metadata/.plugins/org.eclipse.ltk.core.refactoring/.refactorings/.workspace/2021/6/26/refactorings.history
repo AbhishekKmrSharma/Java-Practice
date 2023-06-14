@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Day8_Sorting&apos; to &apos;Day8_Sorting_&amp;_DoublyLinkedList&apos;&#x0D;&#x0A;- Original element: &apos;Day8_Sorting&apos;&#x0D;&#x0A;- Renamed element: &apos;Day8_Sorting&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Day8_Sorting&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Day8_Sorting" name="Day8_Sorting_&amp;_DoublyLinkedList" references="true" stamp="1624382894502" version="1.0"/>
+</session>

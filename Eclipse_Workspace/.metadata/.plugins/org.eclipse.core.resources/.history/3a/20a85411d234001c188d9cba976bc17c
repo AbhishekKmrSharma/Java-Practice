@@ -1,0 +1,18 @@
+package ReTechnical;
+
+public class Oopss 
+{
+	public static void main(String[] args) 
+	{
+		Oopss o=new Oopss();
+		o.setA(10);
+		o.setA(20);
+		System.out.println(o.getA());
+	}
+}
+
+class HasA
+{
+	int b;
+	String s
+}

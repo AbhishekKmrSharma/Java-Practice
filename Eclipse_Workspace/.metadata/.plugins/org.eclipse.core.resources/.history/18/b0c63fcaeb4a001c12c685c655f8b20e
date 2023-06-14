@@ -1,0 +1,12 @@
+
+public class Inheritanceee 
+{
+	int a;
+	int b;
+	String c;
+	
+	void m1()
+	{
+		
+	}
+}

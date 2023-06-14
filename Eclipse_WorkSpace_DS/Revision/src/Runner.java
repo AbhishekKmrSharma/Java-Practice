@@ -1,0 +1,19 @@
+
+public class Runner 
+{
+	public static void main(String[] args) 
+	{
+		Stack s=new Stack();
+		
+		s.show();
+		s.push("Hello");
+		s.push("Abhishek");
+		s.push("sharma");
+		s.push("kumar");
+		s.push("bhagat");
+		s.show();
+		s.pop();
+		s.pop();
+		s.show();
+	}
+}
