@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:p="http://www.springframework.org/schema/p"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id = "driver" class = "org.springframework.jdbc.datasource.DriverManagerDataSource">
+   <property name="driverClassName" value = "com.mysql.cj.jdbc.Driver"></property>
+   <property name="url" value = "jdbc:mysql://localhost:3306/springdaotestSM"></property>
+   <property name="username" value = "root"></property>
+   <property name="password" value = "abhi@123"></property>
+</bean>
+
+<bean class="org.springframework.jdbc.core.JdbcTemplate" id="jdbc">
+		<property name="dataSource" ref="driver" />
+</bean>
+
+<bean id = "jdtemp" class = "com.daoLayer.DaoClass">
+   <property name="jdtemp" ref = "jdbc"></property>
+</bean>
+
+<bean id = "dao" class = "com.serviceLayer.ServiceClass">
+   <property name="dao" ref = "jdtemp"></property>
+</bean>
+
+<bean id = "studentBean" class = "com.beans.Student">
+  <property name = "name" value = "suni kumar"></property>
+  <property name = "email" value = "sunil@gmail.com"></property>
+  <property name = "password" value = "sunil@123"></property>
+  <property name = "gender" value = "Male"></property>
+  <property name = "age" value = "35"></property>
+
+</bean>
+
+
+
+
+
+
+
+</beans>

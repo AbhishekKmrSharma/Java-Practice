@@ -1,0 +1,23 @@
+package com.dbside;
+
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+
+public class DbQueries
+{
+	public static ResultSet loginCheck(String email, String password) throws Exception
+	{
+		ResultSet rs = null;
+		
+		Connection cn = DbConnection.dbConnection();
+		PreparedStatement ps = cn.prepareStatement("select * from register where email = ? password = ?");
+		ps.setString(1, email);
+		ps.setString(2, password);
+		rs = ps.executeQuery();
+		
+		return rs;
+	}
+}

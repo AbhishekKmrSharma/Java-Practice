@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+<servlet>
+<servlet-name>pqr</servlet-name>
+<servlet-class>com.abhi.ServletDemo</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>pqr</servlet-name>
+   <url-pattern>/check</url-pattern>
+</servlet-mapping>
+  
+ </web-app>
+ 

@@ -1,0 +1,13 @@
+
+public class Conversionn 
+{
+	public static void main(String[] args) 
+	{
+		int a = 10;
+		float f = a;
+		f += 2.15;
+		a = (int) f;
+		
+		System.out.println(f);
+	}
+}

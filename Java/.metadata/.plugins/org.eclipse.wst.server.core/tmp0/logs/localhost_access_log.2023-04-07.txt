@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [07/Apr/2023:22:50:39 +0530] "GET /Servlet_Demo/check?num1=12&num2=12&s1=Subtraction HTTP/1.1" 200 3
+0:0:0:0:0:0:0:1 - - [07/Apr/2023:22:50:43 +0530] "GET /Servlet_Demo/check?num1=12&num2=12&s1=Addition HTTP/1.1" 200 4
+0:0:0:0:0:0:0:1 - - [07/Apr/2023:22:50:47 +0530] "GET /Servlet_Demo/check?num1=12&num2=12&s1=Multiplication HTTP/1.1" 200 5

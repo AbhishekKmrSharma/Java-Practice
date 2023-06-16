@@ -1,0 +1,146 @@
+
+<html>
+    <head>
+        <title>My Profile</title>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+    </head>
+    <body>
+        <!-- header div starts -->
+        <div class="container-fluid bg-primary header_div">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <a href="home.jsp" class="navbar-brand text-light">Social Network</a>
+                    </div>
+                    <div class="col-3">
+
+                    </div>
+                    <div class="col-5">
+                        <img src="images/male.png" alt="" class="img-fluid" style="max-width: 50px" />
+                        <span class="text-light"> <%= session.getAttribute("session_name") %> </span>
+                        &nbsp;&nbsp;
+                        <button type="button" class="btn btn-info dropdown-toggle btn-sm" data-bs-toggle="dropdown"> More </button>
+                        <ul class="dropdown-menu">
+                            <li> <a href="home.jsp" class="dropdown-item"> Home </a> </li>
+                            <li> <a href="profile.jsp" class="dropdown-item bg-secondary text-light"> My Profile </a> </li>
+                            <li> <a href="editProfile.jsp" class="dropdown-item"> Edit My profile </a> </li>
+                            <li> <a href="logout" class="dropdown-item"> Logout </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header div close -->
+
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row" style="padding: 40px">
+                    <!-- Sidebar div starts -->
+                    <div class="col-3 shadow-sm p-3 mb-5 bg-body rounded">
+                        <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+                            <div class="position-sticky">
+                                <div class="list-group list-group-flush mx-3 mt-4">
+                                    <a href="home.jsp" class="list-group-item list-group-item-action py-2 ripple">
+                                        <i class="bi bi-newspaper"></i> <span>News Feed</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+                                        <i class="bi bi-wechat"></i> <span>Messanger</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+                                        <i class="bi bi-people"></i> <span>Friend List</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+                                        <i class="bi bi-stopwatch"></i> <span>Watch</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+                                        <i class="bi bi-shop"></i> <span>Marketplace</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+                                        <i class="bi bi-calendar-event"></i> <span>Events</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+                                        <i class="bi bi-file-earmark-break"></i> <span>Page</span>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+                                        <i class="bi bi-collection"></i> <span>Group</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- Sidebar div ends -->
+
+                    <div class="col-9">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="images/virat-kohli.jpg" alt="" style="max-width: 80%; border-radius: 10px; box-shadow: 0px 0px 5px #dddcdc; padding: 5px;" />
+                            </div>
+                            <div class="col-9">
+                                <a href="edit-my-profile.jsp"><i class="bi bi-pencil-fill" style="float: right"></i></a>
+                                <h4 class="text-primary"> <%= session.getAttribute("session_name") %> </h4> <br/>
+                                <b> Email :</b> <%= session.getAttribute("session_email") %> <br/>
+                                <b> Gender :</b> <%= session.getAttribute("session_gender") %> <br/>
+                                <b> City :</b> <%= session.getAttribute("session_city") %> <br/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 p-3">
+                                <div class="shadow p-4 mb-5 bg-body rounded">
+                                    <h5> <i class="bi bi-postcard"></i> Post Status </h5> <br/>
+
+                                    <textarea class="status_textarea_design" placeholder="What are your thoughts"></textarea> <br/> <br/>
+                                    <input type="file" class="form-control" style="width: 50%" />
+                                    <input type="submit" value="Post" class="btn btn-primary post_btn"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="shadow p-4 mb-5 bg-body rounded">
+                                    <img src="images/profile_pic.png" alt="" style="max-width: 50px" /> Deepak Panwar  <span class="small text-secondary" style="float: right"> 1st January, 2023 [10:20pm] </span>
+                                    <div class="row shadow-sm p-3 mb-5 bg-body rounded">
+                                        This is my new house, thank you <br/> <br/>
+                                        <img src="images/house.jpg" alt="" style="max-width: 80%" />
+                                    </div>
+                                    <div>
+                                        <a href="" style="float: right"><i class="bi bi-trash3-fill"></i></a> <br/>
+                                    </div>
+                                </div>
+
+                                <div class="shadow p-4 mb-5 bg-body rounded">
+                                    <img src="images/profile_pic.png" alt="" style="max-width: 50px" /> Deepak Panwar  <span class="small text-secondary" style="float: right"> 1st January, 2023 [10:20pm] </span>
+                                    <div class="row shadow-sm p-3 mb-5 bg-body rounded">
+                                        Everyone needs a little push sometimes. Whether you're starting out on a new career path or need a burst of motivation, these inspiring words will remind you that success is possible. Plus, check out more powerful quotes that will get you in a positive mindset.  <br/> <br/>
+                                    </div>
+                                    <div>
+                                        <a href="" style="float: right"><i class="bi bi-trash3-fill"></i></a> <br/>
+                                    </div>
+                                </div>
+
+                                <div class="shadow p-4 mb-5 bg-body rounded">
+                                    <img src="images/profile_pic.png" alt="" style="max-width: 50px" /> Deepak Panwar  <span class="small text-secondary" style="float: right"> 1st January, 2023 [10:20pm] </span>
+                                    <div class="row shadow-sm p-3 mb-5 bg-body rounded">
+                                        This is my new house, thank you <br/> <br/>
+                                        <img src="images/house.jpg" alt="" style="max-width: 80%" />
+                                    </div>
+                                    <div>
+                                        <a href="" style="float: right"><i class="bi bi-trash3-fill"></i></a> <br/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

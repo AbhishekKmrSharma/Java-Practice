@@ -1,0 +1,23 @@
+
+public class Conversionn 
+{
+	public static void main(String[] args) 
+	{
+		int a = 10;
+		float f = a;
+		f += 2.15;
+		a = (int) f;
+		String s1 = "Hi";
+		String s2 = "10";
+		
+		System.out.println(f+" "+a);
+		
+		int i = Integer.parseInt(s1);
+		
+		
+		
+		System.out.println(i);
+		
+		
+	}
+}

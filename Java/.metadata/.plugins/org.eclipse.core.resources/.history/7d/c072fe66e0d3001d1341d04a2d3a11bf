@@ -1,0 +1,14 @@
+package com.Abhishek;
+
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+
+import javax.servlet.http.HttpServlet;
+
+public class FirstServlet extends HttpServlet
+{
+	public void doPost(HttpRequest req, HttpResponse res)
+	{
+		String s1 = req.getParameter("name");
+	}
+}

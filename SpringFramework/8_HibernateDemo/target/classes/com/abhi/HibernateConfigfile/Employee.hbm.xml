@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+		<class name = "com.abhi.HibernateDemo.Employee" table = "emp_details">
+		  <id name = "empId" column = "empid"/>
+		  <property name="name" column = "empname"></property>
+		  <property name="salary" column = "empSalary"></property>
+		  <property name="designation" column = "empDesignation"></property>
+		  <property name="age" column = "empAge"></property>
+		</class>
+</hibernate-mapping>

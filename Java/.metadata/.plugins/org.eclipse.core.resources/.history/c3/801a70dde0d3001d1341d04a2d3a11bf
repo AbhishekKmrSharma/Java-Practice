@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+  <servlet-mapping>
+    <servlet-name>firstServlet</servlet-name>
+    <url-pattern>/check</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>firstServlet</servlet-name>
+    <servlet-class>FirstServlet</servlet-class>
+  </servlet>
+
+</web-app>

@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=C\:/Users/Abhishek/eclipse/java-2021-03/eclipse/
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files/Java/jdk-16.0.1/lib/jrt-fs.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Program Files/Java/jdk-16.0.1/lib/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=C\:/Users/Abhishek/.p2/pool/plugins/org.junit_4.13.0.v20200204-1500.jar
+org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/Abhishek/.m2/repository
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=11
+org.eclipse.jdt.core.compiler.compliance=11
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.release=enabled
+org.eclipse.jdt.core.compiler.source=11
+org.eclipse.jdt.core.userLibrary.daoJars_UserDefined=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="E\:/Important Lectures/Smart Programming Live Course/Spring DAO/spring dao using jdbc jar files/commons-logging-1.2.1.1.jar"/>\r\n\t<archive path\="E\:/Important Lectures/Smart Programming Live Course/Spring DAO/spring dao using jdbc jar files/mysql-connector-java-8.0.11.jar"/>\r\n\t<archive path\="E\:/Important Lectures/Smart Programming Live Course/Spring DAO/spring dao using jdbc jar files/spring-beans-5.2.9.RELEASE.jar"/>\r\n\t<archive path\="E\:/Important Lectures/Smart Programming Live Course/Spring DAO/spring dao using jdbc jar files/spring-context-5.2.9.RELEASE.jar"/>\r\n\t<archive path\="E\:/Important Lectures/Smart Programming Live Course/Spring DAO/spring dao using jdbc jar files/spring-context-support-5.2.9.RELEASE.jar"/>\r\n\t<archive path\="E\:/Important Lectures/Smart Programming Live Course/Spring DAO/spring dao using jdbc jar files/spring-core-5.2.9.RELEASE.jar"/>\r\n\t<archive path\="E\:/Important Lectures/Smart Programming Live Course/Spring DAO/spring dao using jdbc jar files/spring-expression-5.2.9.RELEASE.jar"/>\r\n\t<archive path\="E\:/Important Lectures/Smart Programming Live Course/Spring DAO/spring dao using jdbc jar files/spring-jdbc-5.2.9.RELEASE.jar"/>\r\n\t<archive path\="E\:/Important Lectures/Smart Programming Live Course/Spring DAO/spring dao using jdbc jar files/spring-tx-5.2.9.RELEASE.jar"/>\r\n</userlibrary>\r\n
+org.eclipse.jdt.core.userLibrary.spring-userDefined=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/Users/Abhishek/Desktop/JAR Files/Spring-manual-jar-added/spring-aop-5.2.9.RELEASE.jar"/>\r\n\t<archive path\="C\:/Users/Abhishek/Desktop/JAR Files/Spring-manual-jar-added/spring-beans-5.2.9.RELEASE.jar"/>\r\n\t<archive path\="C\:/Users/Abhishek/Desktop/JAR Files/Spring-manual-jar-added/spring-context-5.2.9.RELEASE.jar"/>\r\n\t<archive path\="C\:/Users/Abhishek/Desktop/JAR Files/Spring-manual-jar-added/spring-core-5.2.9.RELEASE.jar"/>\r\n\t<archive path\="C\:/Users/Abhishek/Desktop/JAR Files/Spring-manual-jar-added/spring-expression-5.2.9.RELEASE.jar"/>\r\n\t<archive path\="C\:/Users/Abhishek/Downloads/commons-logging-1.2/commons-logging-1.2.jar"/>\r\n</userlibrary>\r\n

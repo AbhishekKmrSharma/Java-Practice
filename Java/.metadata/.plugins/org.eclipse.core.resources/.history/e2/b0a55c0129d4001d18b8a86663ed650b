@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Demo Servlet</title>
+</head>
+<body>
+<form action = "check">
+<input type = "text" placeholder = "Enter Username" name = "num1"></br>
+<input type = "text" placeholder = "Enter Password" name = "num2"></br>
+<input type = "submit" value = "Login">
+
+
+
+</form>
+</body>
+</html>
