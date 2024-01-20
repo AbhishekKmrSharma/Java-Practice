@@ -207,4 +207,5 @@
 <uri name="http://xmlns.jcp.org/xml/ns/javaee/web-partialresponse_2_0.xsd" uri="file:///C:/Users/Abhishek/eclipse/java-2023-03/eclipse/configuration/org.eclipse.osgi/648/0/.cp/dtdsAndSchemas/web-partialresponse_2_0.xsd"/>
 <uri name="http://xmlns.jcp.org/xml/ns/javaee/web-partialresponse_2_2.xsd" uri="file:///C:/Users/Abhishek/eclipse/java-2023-03/eclipse/configuration/org.eclipse.osgi/648/0/.cp/dtdsAndSchemas/web-partialresponse_2_2.xsd"/>
 <uri name="http://xmlns.jcp.org/xml/ns/javaee/web-partialresponse_2_3.xsd" uri="file:///C:/Users/Abhishek/eclipse/java-2023-03/eclipse/configuration/org.eclipse.osgi/648/0/.cp/dtdsAndSchemas/web-partialresponse_2_3.xsd"/>
+<public publicId="-//Red Hat, Inc.//DTD Meta 1.0//EN" uri="file:///C:/Users/Abhishek/eclipse/java-2023-03/eclipse/plugins/org.jboss.tools.common.model_3.3.1.v20130102-1651-H83-Final/schema/meta.dtd"/>
 </catalog>
