@@ -1,8 +1,9 @@
 package Basic;
 
-public class FirstProgram 
+public class FirstProgram
 {
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 	}
 }

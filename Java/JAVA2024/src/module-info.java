@@ -5,5 +5,5 @@
  * @author Abhishek
  *
  */
-module JAVA2024 {
+module Java2024 {
 }
