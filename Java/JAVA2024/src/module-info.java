@@ -5,5 +5,5 @@
  * @author Abhishek
  *
  */
-module Data_Structures2 {
+module JAVA2024 {
 }
