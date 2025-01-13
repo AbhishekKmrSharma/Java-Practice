@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">abhi@123</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/db2024</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        
+        <property name="show_sql">true</property> <!-- just to print the query in console -->
+        <property name="hbm2ddl.auto">update</property> <!-- this is used to update thges existing tables and create will create the new table by removing existing if it is there with same name -->
+        
+    </session-factory>
+</hibernate-configuration>

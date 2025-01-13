@@ -537,3 +537,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration App (7) references 
 2023-06-16 23:55:58,564 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-06-16 23:55:58,565 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\GitDemo\Java-Practice\SpringFramework\9_SpringMVC_FirstDemo\src\test\resources
 2023-06-17 12:42:15,219 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-17 23:15:03,363 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

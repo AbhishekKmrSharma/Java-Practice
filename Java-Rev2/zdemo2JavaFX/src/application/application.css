@@ -1,0 +1,10 @@
+#id1
+{
+	-fx-alignment: center;
+}
+
+#id2
+{
+	-fx-arrows-visible: true;
+	-fx-background-color:red;
+}

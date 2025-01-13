@@ -18,6 +18,7 @@ public class FirstRestController
 {
 	@Autowired
 	Dao dao;
+	
 	@GetMapping("/getdata/{id}")
 	Optional<Emp> hi(@PathVariable int id)
 	{

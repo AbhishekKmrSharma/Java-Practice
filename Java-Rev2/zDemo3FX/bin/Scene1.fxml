@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="424.0" prefWidth="527.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/22">
+   <children>
+      <AnchorPane layoutX="-87.0" layoutY="-73.0" prefHeight="248.0" prefWidth="397.0" />
+      <Label alignment="CENTER" layoutX="122.0" layoutY="23.0" prefHeight="17.0" prefWidth="376.0" text="Scene 1">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="284.0" layoutY="222.0" mnemonicParsing="false" text="Scene 2 Click" />
+   </children>
+</AnchorPane>
